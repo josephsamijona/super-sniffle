@@ -1,0 +1,51 @@
+# Core Django
+Django==5.0.4
+
+# Base de données
+mysqlclient==2.2.0    # Pour MySQL
+# psycopg2-binary==2.9.9  # Pour PostgreSQL (décommentez si nécessaire)
+
+# Variables d'environnement
+python-decouple==3.8
+
+# API REST
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+
+# Authentification
+django-allauth==0.63.3
+djangorestframework-simplejwt==5.3.1
+
+# Formulaires et validation
+django-crispy-forms==2.1
+crispy-bootstrap5==2024.2
+
+# Gestion des images
+Pillow==10.3.0
+
+# Développement
+django-extensions==3.2.3
+
+# Tests
+pytest==8.1.1
+pytest-django==4.8.0
+pytest-cov==5.0.0
+factory-boy==3.3.0
+
+# Sécurité
+django-secure==1.0.2
+
+# Tâches asynchrones
+celery==5.4.0
+redis==5.0.3
+
+# Déploiement
+gunicorn==22.0.0
+whitenoise==6.6.0
+
+# Outils divers
+python-slugify==8.0.4
+pytz==2024.1
+
+# Documentations
+drf-yasg==1.21.7
